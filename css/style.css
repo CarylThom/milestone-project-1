@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|RobotoMono:300');
+
+
+/*------------------------header, hero, text, navigation*/
+#navbar {
+    font-size: 100%;
+    letter-spacing: 7px;
+    
+}
+    
+#navbar li {
+    float: right;
+    margin-right: 30%;
+    list-style: none;
+
+}
+.hero-text {
+  font-family: "Roboto Mono", oswald, sans serif;
+    color: maroon;
+    text-transform: uppercase; 
+    letter-spacing: 5px
+}
+
+#hero-img {
+    height:600px;
+    width: 100%;
+     background: url("https://replit.com/@CarylThomas/MintcreamTrainedHypertalk#assets/images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg") no-repeat center center;
+}
+
+    
+
+
+
+
+
+
+/*------------------------sections*/
+
+
+/*-------------------------main*/
+
+/*------------------------footer*/
