@@ -8,12 +8,22 @@
     color: maroon;
     text-transform: uppercase; 
     letter-spacing: 5px;
+    text-align: top-left;
+    padding-top: 5%;
+    padding-left: 10%;
+    }
+    .hero-text2 {
+    font-family: "Roboto Mono", oswald, sans serif;
+    color: maroon;
+    text-transform: uppercase; 
+    letter-spacing: 5px;
     text-align: center;
     position: center;
+    padding-top: 25%;
     }
 
 #hero-img {
-    height: 700px;
+    height: 600px;
     width: 100%;
     background: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80");
     background-size: cover;
@@ -24,10 +34,9 @@
     animation-fill-mode: forwards;
     animation-duration: 6s;
     }
-
-@keyframes hero-zoom {
+    @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(2);
     }
     to{
         transform: scale(1.1);
@@ -46,3 +55,20 @@
     list-style: none;
     color: #fafafa;
 }
+
+
+
+
+    
+
+
+
+
+
+
+/*------------------------sections*/
+
+
+/*-------------------------main*/
+
+/*------------------------footer*/
