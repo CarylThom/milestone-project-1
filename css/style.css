@@ -1,42 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|RobotoMono:300');
 
 
-/*------------------------header, hero, text, navigation*/
+/*-----------------hero--------------*/
+
+.hero-text {
+    font-family: "Roboto Mono", oswald, sans serif;
+    color: maroon;
+    text-transform: uppercase; 
+    letter-spacing: 5px;
+    text-align: center;
+    position: center;
+    }
+
+#hero-img {
+    height: 700px;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+    }
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+
+/*------------------------navigation Bar--------------*/
+
 #navbar {
     font-size: 100%;
     letter-spacing: 7px;
+    position: relative;
     
 }
     
-#navbar li {
-    float: right;
-    margin-right: 30%;
+#navbar .li {
     list-style: none;
-
+    color: #fafafa;
 }
-.hero-text {
-  font-family: "Roboto Mono", oswald, sans serif;
-    color: maroon;
-    text-transform: uppercase; 
-    letter-spacing: 5px
-}
-
-#hero-img {
-    height:600px;
-    width: 100%;
-     background: url("https://replit.com/@CarylThomas/MintcreamTrainedHypertalk#assets/images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg") no-repeat center center;
-}
-
-    
-
-
-
-
-
-
-/*------------------------sections*/
-
-
-/*-------------------------main*/
-
-/*------------------------footer*/
