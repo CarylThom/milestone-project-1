@@ -71,21 +71,82 @@ body {
 .row {
   background: #830808;
   opacity: 0.8;
-  
-}
+  margin: 0%;
+  padding: 0%;
+  }
+
 .row h2 {
-  font-size: 22px;
-  color: darkgray;
-  text-align: left;
-  padding: 10px;
+  font-size: 20px strong;
+  font-family: Luxurious Roman;
+  color:#fafafa;
   letter-spacing: 3px;
+  text-align: relative;
+ 
   
 
 }
 
 .column {
-  float: left;
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 5%;
   width: 50%;
-
+ color: #fafafa
   
+  
+}
+
+.column h3 {
+  font-size: 20px strong;
+  font-family: Luxurious Roman;
+  color: #000000;
+  letter-spacing: 2px;
+
+}
+
+.row-jack {
+  font-size: 20px;
+  padding-top: 4%;
+  text-align: relative;
+  width: 50%;
+  
+  color: #000000
+  
+}
+.row-jill {
+  font-size: 22px;
+  padding-top: 4%;
+  text-align: relative;
+  color: #000000
+}
+
+
+
+/*------------classes-------*/
+.row1 {
+  background: url("kelly-sikkema-bE6k8SQT2FQ-unsplash");
+  margin: 0%;
+  padding: 0%;
+  color: #fafafa;
+
+}
+
+
+/*--------contact---------*/
+
+
+/*-------footer-------*/
+
+.footer {
+  background: #fafafa;
+  padding: 0%;
+  margin: 0%;
+  
+}
+.footer p {
+  color: #000000;
+  font-family: Luxurious Roman;
+  font-style: strong;
+  font-size: 15px;
+  text-align: center;
 }
