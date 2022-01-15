@@ -69,28 +69,30 @@ body {
 
 
 /*-----------------about-----*/
-.row {
+.about1 {
   background: #830808;
   opacity: 0.8;
   margin: 0%;
   padding: 0%;
   }
 
-.row h2 {
+.about1 h2 {
   font-size: 2rem;
   font-family: Oswald;
   color:#fafafa;
   letter-spacing: 3px;
   text-align: relative;
- 
-}
+  margin-left: 2%;
+
+ }
 
 .column {
   font-size: 25px;
-  text-align: center;
-  margin-top: 5%;
   width: 50%;
- color: #fafafa
+ color: #fafafa;
+ text-align: center;
+ margin-left: 10%;
+ margin-top: 3%
   
   
 }
@@ -108,21 +110,19 @@ body {
   font-family: Oswald;
   color: #000000;
   letter-spacing: 2px;
-  text-align: right;
+  text-align: center;
 
 }
 
 .column1 {
   font-size: 20px;
-  left: 20%;
-  
-  padding-top: 4%;
+  margin-left: 35%;
+  padding-top: 5%;
+  padding-bottom: 3%;
   width: 50%;
-  color: #fafafa
+  color: #fafafa;
   
-
-  
-}
+ }
 
 
 
@@ -130,25 +130,37 @@ body {
 
 
 /*------------classes-------*/
-.row1 {
+.classes1 {
   font-size: 2rem;
   font-family: Oswald;
   color: #000000;
   letter-spacing: 2px;
- 
 }
+ 
+
+
 
 
 
 /*--------contact---------*/
-.row2 {
+.contact1 {
   background: #830808;
   font-size: 2rem;
   font-family: Oswald;
   color: #000000;
   letter-spacing: 2px;
-  
+  opacity: 0.8;
+  }
+
+.contact1 h3 {
+  color: #000000;
 }
+
+.address {
+  color: #fafafa;
+  font-size: 2rem;
+}
+
 .social li {
  color: black;
  display: inline;
@@ -159,8 +171,10 @@ body {
 
 .social a {
   color: black;
+  font-size: 2rem;
 
 }
+
 .social a:hover {
   color: #fafafa
 }
@@ -181,3 +195,10 @@ body {
   text-align: center;
   
 }
+
+
+
+
+ 
+
+
