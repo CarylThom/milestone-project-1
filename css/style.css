@@ -1,14 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css?family=Oswald|RobotoMono:200 300 400');
-@-ms-viewport{
-  width: device-width;
-}
+
 
 
 /*-----------------header--------------*/
 
 .head-text h2 {
-    font-family: 'Roboto Mono', Oswald, sans serif;
+    font-family: 'Roboto Mono';
     color: #fafafa;
     text-transform: uppercase; 
     letter-spacing: 5px;
@@ -17,7 +14,7 @@
     }
     
     .head-text h1 {
-    font-family: "Roboto Mono", oswald, sans serif;
+    font-family: "Oswald";
     color: #830808;
     text-transform: uppercase; 
     letter-spacing: 5px;
@@ -34,7 +31,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
    
     }
   
@@ -49,6 +46,7 @@ body {
   margin: 0%;
   padding: 0%;
   
+  
 }
 /*------------------------navigation Bar--------------*/
 #nav {
@@ -61,7 +59,8 @@ body {
   text-align: center;
   margin-left: 15%;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
+  font-family: "RobotoMono";
   
 }
 
@@ -84,49 +83,53 @@ body {
 
 .about1 h2 {
   font-size: 2rem;
-  font-family: Oswald;
+  font-family: "RobotoMono";
   color:#fafafa;
   letter-spacing: 3px;
   text-align: relative;
   margin-left: 2%;
-  padding-top: 3%;
+  padding-top: 1%;
   
  }
 
-.column {
+.who-we-are {
  font-size: 25px;
+ font-family: "Oswald";
  width: 50%;
  color: #fafafa;
  text-align: center;
  margin-left: 10%;
  margin-top: 3%
+ 
+
   
   
 }
 
-.column h3 {
+.who-we-are span {
   font-size: 2rem;
-  font-family: Oswald;
+  font-family: "RobotoMono";
   color: #000000;
   letter-spacing: 2px;
   
 }
 
-.column1 h3 {
+.what-they-say h3 {
   font-size: 2rem;
-  font-family: Oswald;
+  font-family: "RobotoMono";
   color:#000000;
   letter-spacing: 2px;
   margin-left: 2%;
-  padding-top: 3%;
+  padding-top: 2%;
   text-align: center;
 
 }
 
-.column1 {
-  font-size: 20px;
+.what-they-say {
+  font-size: 25px;
+  font-family: "Oswald";
   margin-left: 35%;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
   color: #fafafa;
   width: 50%;
@@ -134,16 +137,18 @@ body {
 
  
 /*------------classes-------*/
-.class1 {
+.classes1 {
   font-size: 2rem;
   font-family: Oswald;
   color: #000000;
   letter-spacing: 2px;
-  background: #fafafa;
-  margin: 0%;
-  padding: 0%;
-  height: 500%;
+  height: 200%;
   width: 100%;
+  padding: 0%;
+  margin: 0%;
+  
+    
+    
 }
 
 .classes1 h2 {
@@ -157,15 +162,13 @@ body {
 }
 
 .box {
-  padding: 5px 40px 5px 0px;
+  padding: 20px 30px 10px 0px;
   width: 150%;
 	margin: 2%;
-	background-color: #fafafa;
-  left: 30%;
-  border-radius: 30px;
- 
+
+  border-radius: 60px;
   
-}
+ }
 
 .text {
        font-family: Oswald;
@@ -182,6 +185,8 @@ body {
     text-align: center;
     color:#000000;
     position: relative;
+    border-radius: 60px;
+  
     
 }
 
@@ -199,16 +204,14 @@ body {
     display: inline-block;
     text-align: center;
     color: #fafafa
-   
-
-    }
+    
+   }
 
 .box1 {
-  padding: 10px 5px 25px 0px;
-	border-radius: 30px;
-	width: 150%;
-  margin: 0%;
-  background-color: #830808;
+ padding: 0px 0px 0px 0px;
+ border-radius: 30px;
+ width: 150%;
+ color: #000000;
 
   
   }
@@ -222,7 +225,7 @@ body {
 
 .form {
   font-size: 20px;
-  color: #000000;
+  color: #fafafa;
   position: center;
   
   }
@@ -231,7 +234,7 @@ body {
     width: 100%;
     display: inline-block;
     text-align: center;
-    color: #000000;
+    color: #fafafa;
     position: relative;
     list-style: none;
     font-family: Oswald;
@@ -240,12 +243,96 @@ body {
 
 }
 .box2 {
-  padding: 10px 5px 25px 0px;
-	border-radius: 30px;
-	width: 150%;
+  padding: 50px 10px 0px 0px;
+	border-radius: 50px;
+	width: 50%;
 	margin: 2%;
-	background-color: #332b2b;
+	background: url("https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  border-color: #fafafa;
 }
+  
+
+
+  
+   
+/*--------contact---------*/
+
+
+.contact1 {
+  background: url("https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-size: 2rem;
+  font-family: "RobotoMono";
+  letter-spacing: 2px;
+  opacity: 0.8;
+  margin: 0%;
+  padding: 0%;
+  height: 500%;
+  width: 100%;
+   
+  }
+
+.contact1 h2 {
+  font-size: 2rem;
+  font-family: "RobotoMono";
+  color: #000000;
+  letter-spacing: 3px;
+  text-align: relative;
+  margin-left: 2%;
+  padding-top: 3%;
+  }
+
+.contact2 h3 {
+ font-size: 25px;
+ width: 50%;
+ color: #000000;
+ text-align: center;
+ margin-left: 10%;
+ margin-top: 3%
+
+}
+
+.social a {
+  color: black;
+  font-size: 2rem;
+  
+
+}
+
+.social a:hover {
+  color: #fafafa
+}
+
+
+.container {
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-family: "Oswald";
+  
+}
+
+
+/*-------footer-------*/
+
+.footer {
+  background: #fafafa;
+  padding: 0%;
+  margin: 0%;
+  
+}
+.footer p {
+  color: #000000;
+  font-family: Oswald;
+  font-size: 1ems;
+  text-align: center;
+  
+}
+
   
 
 
@@ -261,7 +348,7 @@ body {
 
 
 .contact1 {
-  background: #830808;
+  background:#830808;
   font-size: 2rem;
   font-family: Oswald;
   letter-spacing: 2px;
@@ -283,7 +370,7 @@ body {
   padding-top: 3%;
   }
 
-  .contact2 h3 {
+.contact2 h3 {
  font-size: 25px;
  width: 50%;
  color: #fafafa;
@@ -292,9 +379,6 @@ body {
  margin-top: 3%
 
 }
-
-
-
 
 .social a {
   color: black;
@@ -313,6 +397,7 @@ body {
   letter-spacing: 2px;
   font-size: 25px;
   padding-bottom: 5px;
+  float: unset;
   
 }
 
@@ -332,10 +417,3 @@ body {
   text-align: center;
   
 }
-
-
-
-
- 
-
-
