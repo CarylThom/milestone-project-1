@@ -45,9 +45,9 @@ Development
 
 ## Features
 
-* Responsive on all device sizes – responsive only to desktop at the moment
+* Responsive on all device sizes – responsive only to desktop at the moment. Having never used Bootstrap or the @media queries this process was difficult to master in a short time.
 
-* The interactive elements if the site include links to three social media sites and a form for the potential client to show their interest
+* The interactive elements if the site include links to three social media sites and a form for the potential client to become a member.
 
 ## Languages Used
 
@@ -60,7 +60,7 @@ Development
 
 * Google Fonts: Google Fonts was used for the Roboto Mono and Oswald fonts.
 
-* Font Awesome: Font Awesome was used for four icons on this page.
+* Font Awesome: Font Awesome was used for all icons on this page.
 
 * Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
@@ -72,7 +72,7 @@ Development
 
 ## Testing
 
-* W3C Markup Validator and W3C CSS Validator were used to validate the project.
+* W3C Markup Validator and W3C CSS Validator were used to validate the project. 
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -112,7 +112,7 @@ Development
 
 ## Bugs and Issues
 
-* With hardly any previous experience of coding in practice, and having never used GitHub before, this first milestone did prove a challenge. The biggest issues were the linking of files, media response and the addition of images. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
+* With hardly any previous experience of coding in practice, and having never used GitHub or Bootstrap before, this first milestone did prove a challenge. After many hours of work the biggest issues were still the linking of files within GitHub, responsive design on mobile and tablet. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
 
 
 

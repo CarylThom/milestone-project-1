@@ -9,6 +9,7 @@
 
 /*-----------------header--------------*/
 
+
 .head-text h2 {
     font-family: 'Roboto Mono';
     color: #fafafa;
@@ -78,6 +79,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-family: "RobotoMono";
+  font-weight: bold;
  
 
   
@@ -135,6 +137,7 @@ body {
   color: #000000;
   letter-spacing: 2px;
   
+
 }
 
 .what-they-say h3 {
@@ -161,8 +164,10 @@ body {
  
 /*------------join-------*/
 
+
 .join1 {
   background: url("https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80") center center / cover no-repeat fixed;
+  img: fluid;
   
  }
 
@@ -178,8 +183,8 @@ body {
   
 }
   
-.join-text1 { /*text within form box*/
-       font-family: Oswald;
+.join-text1 { 
+       font-family: "Oswald";
       font-size: 2rem;
       text-transform: uppercase;
      list-style: none;
@@ -190,6 +195,7 @@ body {
   font-size: 20px;
   color: #fafafa;
   position: center;
+  margin-bottom: 7%;
   
   }
   
@@ -201,16 +207,18 @@ body {
     color: #fafafa;
     position: relative;
     list-style: none;
-    font-family: Oswald;
+    font-family: "RobotoMono";
     font-size: 20px;
+    
     
 
 }
 #form-box {
-  padding: 50px 10px 0px 0px;
+  padding: 50px 30px 5px 0px;
+  margin-left: 8%;
 	border-radius: 50px;
 	width: 50%;
-	margin: 2%;
+	margin-bottom: 2%;
 	background: url("https://images.unsplash.com/photo-1622599518895-be813cc42628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   display: inline-grid;
   
@@ -219,6 +227,9 @@ body {
 
 .join-text1 li span {
   color: rgb(187, 46, 128);
+
+  
+  
 }
 
 #text-box {
@@ -233,34 +244,34 @@ body {
   font-size: 25px;
   text-align: center;
   list-style: none;
-  border-radius: 10px;
+  border-radius: 20px;
   background:#fafafa;
   width: 30%;
   float: right;
   margin-right: 10%;
-  
+  margin-left: 0;
+  margin-top: 15%;
 }
-
-#text-box1 {
-  color: rgb(187, 46, 128);
-  font-family: "Oswald";
-  font-size: 22px;
-  text-align: relative;
-
+.classes span {
+  color: #000000;
 }
 
 .rewards {
-  font-family: "Oswald";
+  font-family: "RobotoMono";
   font-size: 25px;
-  text-align: left;
   list-style: none;
   border-radius: 10px;
+  color: #4b293c;
+  text-align: relative;
   background:#fafafa;
-  width: 30%;
+  width: 35%;
   float: right;
   margin-right: 10%;
-
+  margin-left: 10%;
+ 
 }
+
+
   
 
 /*--------contact---------*/
@@ -273,8 +284,10 @@ body {
   margin: 0%;
   padding: 0%;
   width: 100%;
-  background: #4b293c;
   opacity: 0.8;
+  background: #4b293c;
+
+  
   
   }
 
@@ -290,25 +303,27 @@ font-size: 2rem;
   }
   
   .social a {
-  color: #19b0f7;
+  color: #fafafa;
   font-size: 2rem;
-  
-  
+  margin-right: 3rem;
   
   }
-  
   .social a:hover {
-  color: #fafafa;
+  color: #19b0f7;
  
 }
 
 .container {
-  color: #19b0f7;
-  letter-spacing: 3px;
+  color: #fafafa;
+  letter-spacing: 2px;
   font-size: 25px;
   padding-bottom: 1%;
+  padding-top: 0;
   font-family: "Oswald";
+  column-gap: 10%;
 }
+
+
 
 
 
@@ -320,7 +335,7 @@ font-size: 2rem;
 
 .footer {
   background: #4b293c;
-  padding: 0%;
+  padding-top: 0%;
   margin: 0%;
   
 }
