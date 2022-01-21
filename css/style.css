@@ -28,6 +28,7 @@
     margin-top: 22%;
     font-size: 5rem;
     padding-bottom: 5%;
+    overflow: hidden;
     }
    
     #head-img {
@@ -39,26 +40,12 @@
     background-repeat: no-repeat;
     padding-bottom: 10%;
     position: relative; 
-}
-
-#hero-outer{
-    height:600px;
-    width: 100%;
     overflow: hidden;
-    position: relative;
 }
 
-
-    
-   
-    
-  
-    
-    
-    
-    
 
 /*---------------------Body------------------*/
+
 body {
 	background-color: darkgray;
   margin: 0%;
@@ -164,10 +151,10 @@ body {
  
 /*------------join-------*/
 
-
+/*background image*/
 .join1 {
   background: url("https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80") center center / cover no-repeat fixed;
-  img: fluid;
+  
   
  }
 
@@ -180,26 +167,17 @@ body {
   margin-left: 2%;
   padding-top: 1%;
 
-  
 }
-  
-.join-text1 { 
-       font-family: "Oswald";
-      font-size: 2rem;
-      text-transform: uppercase;
-     list-style: none;
-  
-  }
-
+/*text for form within picture box*/
 .form {
   font-size: 20px;
   color: #fafafa;
   position: center;
-  margin-bottom: 7%;
+  margin-bottom: 2%;
   
   }
   
-
+/*text within picture box*/
 .join-text {
     width: 100%;
     display: inline-block;
@@ -213,6 +191,7 @@ body {
     
 
 }
+/*picture box*/
 #form-box {
   padding: 50px 30px 5px 0px;
   margin-left: 8%;
@@ -225,20 +204,16 @@ body {
   }
 
 
-.join-text1 li span {
+.join-text p span {
   color: rgb(187, 46, 128);
 
   
   
-}
 
-#text-box {
-  color: rgb(187, 46, 128);
-  font-family: "Oswald";
-  font-size: 22px;
-  text-align: relative;
-  
-}
+ 
+
+
+ /*--white class box*/}
 .classes {
   font-family: "Oswald";
   font-size: 25px;
@@ -252,24 +227,10 @@ body {
   margin-left: 0;
   margin-top: 15%;
 }
-.classes span {
-  color: #000000;
-}
 
-.rewards {
-  font-family: "RobotoMono";
-  font-size: 25px;
-  list-style: none;
-  border-radius: 10px;
-  color: #4b293c;
-  text-align: relative;
-  background:#fafafa;
-  width: 35%;
-  float: right;
-  margin-right: 10%;
-  margin-left: 10%;
- 
-}
+
+
+
 
 
   
@@ -347,11 +308,33 @@ font-size: 2rem;
   
 }
 
+   
+
+@media screen and (max-width: 943px){
+
+    #nav{clear: left;
+        float: center;
+        margin-top: 1px;
+        margin-left: 20px; 
+        margin-bottom: 10px;
+        margin-right: 10px;
+      
+    }
+}
+@media screen and (max-width: 943px){
+
+    #header-img{clear: left;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px; 
+        margin-bottom: 10px;
+        margin-right: 10px;
+        
+        
+}
+}
 
 
 
-@media screen and (max-width: 1396px){
-    .join{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+
+
