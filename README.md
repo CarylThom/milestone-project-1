@@ -19,16 +19,16 @@ Development
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – possible new additions or rewards.
-* As a Returning Visitor - I want to search social media links to be part of the community and keep up with changes. 
-* As a Returning Visitor – I would like to find the best ways to contact if I have issues that need to be discussed.
+* As a Returning Visitor – I want to see possible new additions to the website such as rewards or offers.
+* As a Returning Visitor - I want to search social media links to be part of the community and keep up with like-minded individuals, see if there are any changes to services or special activities. 
+* As a Returning Visitor – I would like to find the best ways to contact the gym if I have issues that need to be discussed.
 
 
 ## Design
 
 ### Colour Scheme
 
-* The main colours used are blue (#19b0f7) aubergine (#4b293c) white (#fafafa) and a slight use of pink (rgb(187, 46, 128) and black (#000000).
+* The main colours used are blue (#19b0f7) aubergine (#4b293c) white (#fafafa) and a slight use of pink (rgb(187, 46, 128) and black (#000000). They have been chosen as the colours of the gym to show modernity and accessibility. 
 
 ### Typography
 
@@ -36,18 +36,18 @@ Development
 
 ### Imagery
 
-* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen as the no-nonsense approach of the gym and to show modernity and accessibility. 
+* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen again to showing modernity and accessibility. 
 
 
 ## Wireframes
 
-* Balsmaiq Wireframe 
+* Balsmaiq Wireframe  - Have been unable to attach the initial wireframe plan. My initial ideas did slightly  differ from the end product. Lack of experience  and time constraints did affect the outcome but other areas were improved with layout, colour and images.
 
 ## Features
 
-* Responsive on all device sizes – responsive only to desktop at the moment. Having never used Bootstrap or the @media queries this process was difficult to master in a short time.
+* Responsive on all device sizes – Currently only fully responsive to desktop and larger sized tables. Having never used Bootstrap or the @media queries before, this process was difficult to master in a short time.
 
-* The interactive elements if the site include links to three social media sites and a form for the potential client to become a member.
+* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see promotional rewards on offer.
 
 ## Languages Used
 
@@ -76,7 +76,7 @@ Development
 
 ## Testing User Stories from User Experience (UX) Section
 
-### First Time/Returning Visitor Goals
+### First Time Visitor Goals
 
 * As a First Time Visitor - I don’t want to be bogged down with jargon that confuses more than helps me, does not answer y needs = 
                          The hero image will allow the user to immediately understand the purpose of the site. There is a navigation bar to direct them to other areas of the page.
@@ -88,11 +88,23 @@ Development
                    There is a short testimonial section, but also three social media links that will connect with others in the community who can supply up to date reviews and offer advice on the products on offer and their benefits.
 
 
+### Returning/Frequent User Goals
+
+* As a Returning Visitor – I want to see possible new additions to the website such as rewards or offers = 
+        There will be a rewards page where the gym and their affiliated companies will provide promotional rewards to existing members for reaching goals.
+
+* As a Returning Visitor - I want to search social media links to be part of the community and keep up with like-minded individuals, see if there are any changes to services or special activities = 
+                There are links to three social media pages/groups allowing the visitor (member or not) to connect with others and view the latest news and events from the gym.
+
+* As a Returning Visitor – I would like to find the best ways to contact the gym if I have issues that need to be discussed = 
+                           Contact information is located on the page, these include the location address, phone number, email address and social media links.
+
+
 ## Credits
 
 ### Code
 
-* Bootstrap4: Used to make the site responsive.
+* Bootstrap4: Slightly used to make the site responsive.
 
 * Reviewing and revisit lessons from the HTML and CSS section of the course via [Code Institute] 
 
