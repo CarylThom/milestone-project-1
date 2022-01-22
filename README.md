@@ -45,7 +45,7 @@ Development
 
 ## Features
 
-* Responsive on all device sizes – Currently only fully responsive to desktop and larger sized tables. Having never used Bootstrap or the @media queries before, this process was difficult to master in a short time.
+* Responsive on all device sizes – Fully responsive on desktop. Responsive on most tablets and mobiles.
 
 * The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see promotional rewards on offer.
 
