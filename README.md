@@ -28,7 +28,7 @@ Development
 
 ### Colour Scheme
 
-* The main colours used are blue (#19b0f7) aubergine (#4b293c) white (#fafafa) and a slight use of pink (rgb(187, 46, 128) and black (#000000). They have been chosen as the colours of the gym to show modernity and accessibility. 
+* The main colours used are blue (#19b0f7) aubergine (#4b293c) white (#fafafa) and a slight use of pink (rgb(187, 46, 128), black (#000000) and DarkGray. They have been chosen as the colours of the gym to show modernity and accessibility. 
 
 ### Typography
 
@@ -41,7 +41,7 @@ Development
 
 ## Wireframes
 
-* Balsmaiq Wireframe  - Have been unable to attach the initial wireframe plan. My initial ideas did slightly  differ from the end product. Lack of experience  and time constraints did affect the outcome but other areas were improved with layout, colour and images.
+* Balsmaiq Wireframe  - {I Have unfortunately been unable to attach the initial wireframe plan} My initial ideas did slightly differ from the end product but the original layout and choice of images remained very similar. 
 
 ## Features
 
@@ -108,6 +108,7 @@ Development
 
 * Reviewing and revisit lessons from the HTML and CSS section of the course via [Code Institute] 
 
+* The tutors at Code Institute
 ### Content
 
 * All content was written by the developer.
@@ -117,14 +118,14 @@ Development
 * All Images were found on [www.unsplash.com]
 
 * The images used were by the photographers:
-                * Sven Mieke – Hero image.
-                * Risen Wang – Join section image.
-                * Zachary Kadolph – Form image.
+                . Sven Mieke: Heading background image.
+                . Risen Wang: Join section background image.
+                . Zachary Kadolph: Form image.
 
 
 ## Bugs and Issues
 
-* With hardly any previous experience of coding in practice, and having never used GitHub or Bootstrap before, this first milestone did prove a challenge. After many hours of work the biggest issues were still the linking of files within GitHub, responsive design on mobile and tablet. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
+* With hardly any previous experience of coding in practice, and having never used GitHub or Bootstrap (or any of the other software and websites involved), this first milestone did prove a challenge. After many hours of work the biggest issues were still the linking of files within GitHub, and also the responsive design on mobile and tablet. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
 
 
 

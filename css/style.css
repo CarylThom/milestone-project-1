@@ -305,14 +305,15 @@ font-size: 2rem;
   margin: 0%;
   
 }
-
 .footer p {
   color: #1d1b1b;
   font-family: "Oswald";
-  font-size: 1ems;
+  font-size: 15px;
   text-align: center;
-  
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
+
 
   
 @media screen and (max-width: 1024px){
