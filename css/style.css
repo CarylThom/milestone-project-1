@@ -12,14 +12,14 @@
 
 #header-img::before {    
       content: "";
-      background-image: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80"); ;
+      background-image: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80"); 
       background-size: cover;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 70%;
+      opacity: 80%;
 }
 #header-img {
     position: relative; 
@@ -32,14 +32,15 @@
 
 .header-text h1 {
   position: relative;
-  color: #fafafa;  
-  font-size: 10rem;
+  color: #00a7fa;  
+  font-size: 8rem;
   line-height: 0.9;
   text-align: center;
   text-transform: uppercase; 
   letter-spacing: 5px;
   font-family: "Oswald";
   padding-right: 2%;
+  padding-top: 4%;
 }
 
  .header-text h2 {
@@ -62,6 +63,7 @@ body {
 	background-color: darkgray;
   margin: 0%;
   padding: 0%;
+
   
   
 }
@@ -73,25 +75,30 @@ body {
   position: fixed; 
   top: 0; 
   width: 100%; 
-   z-index: 99999;
+  z-index: 99999;
+  float: left;
+  
+  
 }
 
 
 .navbar a {
   float: left;
   display: block;
-  color: #fafafa;
+  color: #00a7fa;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "RobotoMono";
   font-size: 20px;
+  
+  
 }
 
 
 .navbar a:hover {
-  color: #1960f7;
+  color: #fafafa;
 }
 
 
@@ -113,7 +120,7 @@ body {
  font-size: 25px;
  font-family: "Oswald";
  width: 50%;
- padding-top: 5%;
+ padding-top: 3%;
  color: #fafafa;
  text-align: center;
  margin-left: 10%;
@@ -226,7 +233,7 @@ body {
   
 }
 .classes h2 {
-  color: #1960f7;
+  color: #4b293c;
   font-weight: 700;
 }
 
@@ -256,13 +263,12 @@ body {
 
 /*background image*/
 .sign-in-form {
-   background: url("https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_960_720.jpg") 
-  center center / cover no-repeat fixed;
+   background: url("https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_960_720.jpg") center center / cover no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
+ overflow: hidden;
   height: 39rem;
 }
 
@@ -294,7 +300,7 @@ margin-top: 8%;
 }
 .sign-in-text h1 {
   font-family: "RobotoMono";
-  color: #1960f7;
+  color: #00a7fa;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -306,8 +312,7 @@ margin-top: 8%;
 
 /*--------contact---------*/
 
-
-
+  
 .contact1 {
   font-size: 2rem;
   font-family: "RobotoMono";
@@ -316,14 +321,15 @@ margin-top: 8%;
   padding: 0%;
   width: 100%;
   opacity: 0.8;
-  background: #4b293c;
+ background: #000;
+  
 
   
   
   }
 
   .social a {
-  color: #fafafa;
+  color: #00a7fa;
   font-size: 35px;
   letter-spacing: 2px;
   
@@ -332,7 +338,7 @@ margin-top: 8%;
   }
 
   .social a:hover {
-  color: #19b0f7;
+  color: #fafafa;
  
 }
 
@@ -357,12 +363,14 @@ margin-top: 8%;
   
 }
 .footer p {
-  color: #1d1b1b;
+  color: #000;
   font-family: "Oswald";
   font-size: 15px;
   text-align: center;
   margin-bottom: 1%;
   margin-top: 1%;
+  opacity: 70%;
+  
   
 }
 
@@ -423,3 +431,5 @@ margin-top: 8%;
 }
 
 }
+
+
