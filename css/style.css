@@ -10,45 +10,52 @@
 /*-----------------header--------------*/
 
 
-
-.head-text h2 {
-    font-family: 'Roboto Mono';
-    color: #fafafa;
-    text-transform: uppercase; 
-    letter-spacing: 5px;
-    padding-top: 2%;
-    padding-left: 2%;
-    }
-    
-    .head-text h1 {
-    font-family: "Oswald";
-    color: #19b0f7;
-    text-transform: uppercase; 
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 22%;
-    font-size: 5rem;
-    padding-bottom: 3%;
-    overflow: hidden;
-    }
-   
-    #head-img {
-    height: 500%;
-    width: 100%;
-    background: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 6%;
+#header-img::before {    
+      content: "";
+      background-image: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80"); ;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 70%;
+}
+#header-img {
     position: relative; 
-    overflow: hidden;
-      
-    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.header-text h1 {
+  position: relative;
+  color: #fafafa;  
+  font-size: 10rem;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase; 
+  letter-spacing: 5px;
+  font-family: "Oswald";
+  padding-right: 2%;
+}
 
+ .header-text h2 {
+   position: relative;
+  color: #fafafa;  
+  font-size: 30px;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase; 
+  letter-spacing: 5px;
+  font-family: "RobotoMono";
+  
+   
+ }
 
-
+   
 /*---------------------Body------------------*/
 
 body {
@@ -60,29 +67,31 @@ body {
 }
 /*------------------------navigation Bar--------------*/
 
-
-#nav a {
- display: inline;
-  color: #19b0f7;
-  text-align: center;
-  margin-left: 14%;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: "RobotoMono";
-  font-weight: bold;
-  
- 
-
-  
- 
-  
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+   z-index: 99999;
 }
 
-#nav :hover {
+
+.navbar a {
+  float: left;
+  display: block;
   color: #fafafa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "RobotoMono";
+  font-size: 20px;
+}
 
-   
 
+.navbar a:hover {
+  color: #1960f7;
 }
 
 
@@ -94,10 +103,11 @@ body {
   padding: 0%;
   height: 500%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 80%;
   padding-top: 1%;
 
   }
+
 
 .who-we-are {
  font-size: 25px;
@@ -109,15 +119,12 @@ body {
  margin-left: 10%;
  margin-top: 3%
 
-
-  
-  
 }
 
 .who-we-are span {
   font-size: 2rem;
   font-family: "RobotoMono";
-  color: #000000;
+  color: #0f0f0f;
   letter-spacing: 2px;
   
 
@@ -126,7 +133,7 @@ body {
 .what-they-say h3 {
   font-size: 2rem;
   font-family: "RobotoMono";
-  color:#000000;
+  color:#0f0f0f;
   letter-spacing: 2px;
   margin-left: 2%;
   padding-top: 2%;
@@ -154,6 +161,7 @@ body {
   overflow: hidden;
   padding-top: 8%;
   padding-bottom: 5%;
+ 
   
 }
 /*text for form within picture box*/
@@ -246,33 +254,21 @@ body {
 
 /*------sign in-------*/
 
-/*background Image*/
-#sign-in-form {
+/*background image*/
+.sign-in-form {
    background: url("https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_960_720.jpg") 
   center center / cover no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- overflow: hidden;
+  overflow: hidden;
   height: 39rem;
 }
 
 
-.sign-in-form1 h2 {
-  font-size: 2rem;
-  font-family: "RobotoMono";
-  color: #fafafa;
-  letter-spacing: 3px;
-  text-align: relative;
-  margin-left: 2%;
-  padding-top: 1%;
-  padding-bottom: 3%;
-
-}
-
 #sign-in-form-box {
-  padding: 2% 2% 1% 2%;
+  padding: 3% 2% 3% 2%;
   margin-left: 8%;
 	border-radius: 50px;
 	width: 50%;
@@ -281,7 +277,7 @@ body {
   display: inline-grid;
   overflow: hidden;
   opacity:80%;
-
+margin-top: 8%;
   
   }
 .sign-in-text {
@@ -294,8 +290,15 @@ body {
     font-family: "Oswald";
     font-size: 25px;
     padding: 0;
-    
+     
 }
+.sign-in-text h1 {
+  font-family: "RobotoMono";
+  color: #1960f7;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
 
 
 
@@ -303,7 +306,8 @@ body {
 
 /*--------contact---------*/
 
-  
+
+
 .contact1 {
   font-size: 2rem;
   font-family: "RobotoMono";
