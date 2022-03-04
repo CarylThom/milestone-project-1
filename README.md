@@ -47,7 +47,7 @@ Development
 
 * Responsive on all device sizes – Fully responsive on desktop. Responsive on most tablets and mobiles.
 
-* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see promotional rewards on offer.
+* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see their fitness progress and promotional rewards on offer (The sign-in section of the page has not been set up in this example)
 
 ## Languages Used
 
@@ -64,15 +64,25 @@ Development
 
 * Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* GitHub: GitHub is used to store the project code after being pushed from Git.
+* GitHub: GitHub is used to store the project code after being pushed from Git. 
 
-* Balsamiq: - Balsamiq was used to create the wireframe 
+* Responsivedesignchecker.com
 
-* Unsplash.com:  - All images were obtained from this site.
+* Balsamiq: - Balsamiq was used to create the wireframe.
+
+* PixaBay: - One image was obtained from this site.
+
+* Unsplash.com:  - Three images were obtained from this site.
 
 ## Testing
 
-* W3C Markup Validator and W3C CSS Validator were used to validate the project. 
+* Lighthouse test report: Lighthouse test on main page (index.html) reported a score between 85-93 on desktop and 85-92 on mobile.
+Lighthouse test on linked page (members.html) reported a score between 89-100 on desktop and 91-100 on mobile.
+
+* W3C Markup Validator report: Some errors were flaged, but to the best of my ability/knowlege no bugs or problems that would inhibit the running of the site were detected.
+
+* W3C CSS Validator report: No errors detected
+
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -115,15 +125,20 @@ Development
 
 ### Media
 
-* All Images were found on [www.unsplash.com]
+* Three Images were found on [www.unsplash.com]
+
+* One image found on [www.piaxabay.com]
 
 * The images used were by the photographers:
                 . Sven Mieke: Heading background image.
                 . Risen Wang: Join section background image.
                 . Zachary Kadolph: Form image.
+                . Unknown: Members background image.
 
 
 ## Bugs and Issues
+
+* Unaware of any current major bugss or issues that would hinder the operation of the site.
 
 * With hardly any previous experience of coding in practice, and having never used GitHub or Bootstrap (or any of the other software and websites involved), this first milestone did prove a challenge. After many hours of work the biggest issues were still the linking of files within GitHub, and also the responsive design on mobile and tablet. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
 
