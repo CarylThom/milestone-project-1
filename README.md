@@ -5,6 +5,8 @@ User Centric Front-End
 Development
 
 
+
+
 ## Description
 
 * It is a website for a small gym. It is a simple and self-explanatory site where its main purpose is to grab the attention of the individual who is looking to address their fitness and health questions, while also gaining more members/ clients for the gym.
@@ -28,11 +30,11 @@ Development
 
 ### Colour Scheme
 
-* The main colours used are blue (#19b0f7) aubergine (#4b293c) white (#fafafa) and a slight use of pink (rgb(187, 46, 128), black (#000000) and DarkGray. They have been chosen as the colours of the gym to show modernity and accessibility. 
+* The main colours used are blue(#00a7fa & #19b0f7) aubergine(#4b293c) white(#fafafa) and a slight use of black(#000000 & #000), dark gray(#333), with a background colour of gray(#b0a6a6) . They have been chosen as the colours of the gym to show modernity and accessibility. 
 
 ### Typography
 
-* The two interchanging fonts on this site are RobotoMono and Oswald as they provide clear easy to read text ideal for the subject matter.
+* The main font used is RobotoMono and one instance of Oswald in the main heading. They provide clear easy to read text ideal for the subject matter.
 
 ### Imagery
 
@@ -41,15 +43,18 @@ Development
 
 ## Wireframes
 
-* Balsmaiq Wireframe  - {I Have unfortunately been unable to attach the initial wireframe plan} My initial ideas did slightly differ from the end product but the original layout and choice of images remained very similar. 
+![image](https://user-images.githubusercontent.com/95102264/156890179-fad7e567-728f-4296-94fe-dc84adf8a09b.png)
+
+* Balsmaiq Wireframe  - Used to design the initial draft idea for the website. The overall layout is the same, although colours, image choices and placing are different.
 
 ## Features
 
 * Responsive on all device sizes – Fully responsive on desktop. Responsive on most tablets and mobiles.
 
-* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see their fitness progress and promotional rewards on offer (The sign-in section of the page has not been set up in this example)
+* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see their fitness progress and promotional rewards on offer.
 
 ## Languages Used
+
 
 * HTML5
 * CSS3
@@ -73,6 +78,8 @@ Development
 * PixaBay: - One image was obtained from this site.
 
 * Unsplash.com:  - Three images were obtained from this site.
+
+* responsivedesignchecker.com
 
 ## Testing
 
@@ -119,6 +126,10 @@ Lighthouse test on linked page (members.html) reported a score between 89-100 on
 * Reviewing and revisit lessons from the HTML and CSS section of the course via [Code Institute] 
 
 * The tutors at Code Institute
+
+* W3schools.com
+
+* Stackoverflow.com
 ### Content
 
 * All content was written by the developer.

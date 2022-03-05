@@ -12,14 +12,19 @@
 
 #header-img::before {    
       content: "";
-      background-image: url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80"); 
+      background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80"); 
       background-size: cover;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 80%;
+      opacity: 75%;
+ 
     
     
 }
@@ -37,21 +42,21 @@
 }
 .header-text h1 {
   position: relative;
-  color: #00a7fa;  
-  font-size: 8rem;
+  color: #fafafa;  
+  font-size: 7rem;
   line-height: 0.9;
   text-align: center;
   text-transform: uppercase; 
   letter-spacing: 5px;
   font-family: "Oswald";
   padding-right: 2%;
-  padding-top: 4%;
+  padding-top: 5%;
   
 }
 
  .header-text h2 {
    position: relative;
-  color: #fafafa;  
+  color: #00a7fa;  
   font-size: 30px;
   line-height: 0.9;
   text-align: center;
@@ -66,9 +71,10 @@
 /*---------------------Body------------------*/
 
 body {
-	background-color: darkgray;
+	background-color: #b0a6a6;
   margin: 0%;
   padding: 0%;
+  
   
 }
   
@@ -97,7 +103,7 @@ body {
 .navbar a {
   
   display: block;
-  color: #00a7fa;
+  color: #fafafa;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -111,7 +117,7 @@ body {
 
 
 .navbar a:hover {
-  color: #fafafa;
+  color: #00a7fa;
 }
 
 
@@ -123,7 +129,7 @@ body {
   padding: 0%;
   height: 500%;
   width: 100%;
-  opacity: 80%;
+  opacity: 90%;
   padding-top: 1%;
 
   }
@@ -131,7 +137,7 @@ body {
 
 .who-we-are {
  font-size: 25px;
- font-family: "Oswald";
+ font-family: "RobotoMono";
  width: 50%;
  padding-top: 3%;
  color: #fafafa;
@@ -144,7 +150,7 @@ body {
 .who-we-are span {
   font-size: 2rem;
   font-family: "RobotoMono";
-  color: #0f0f0f;
+  color: #000000;
   letter-spacing: 2px;
   
 
@@ -153,7 +159,7 @@ body {
 .what-they-say h3 {
   font-size: 2rem;
   font-family: "RobotoMono";
-  color:#0f0f0f;
+  color:#000000;
   letter-spacing: 2px;
   margin-left: 2%;
   padding-top: 2%;
@@ -163,7 +169,7 @@ body {
 
 .what-they-say {
   font-size: 25px;
-  font-family: "Oswald";
+  font-family: "RobotoMono";
   margin-left: 35%;
   padding-top: 2%;
   padding-bottom: 3%;
@@ -201,7 +207,7 @@ body {
     color: #fafafa;
     margin: 0;
     list-style: none;
-    font-family: "Oswald";
+    font-family: "RobotoMono";
     font-size: 25px;
   font-weight: 700;
     padding: 0;
@@ -246,7 +252,7 @@ body {
   
 }
 .classes h2 {
-  color: #4b293c;
+  color: #1960f7;
   font-weight: 700;
 }
 
@@ -261,7 +267,7 @@ body {
 }
 /*cost within picture box*/
 .cost {
-  font-family: "Oswald";
+  font-family: "RobotoMono";
   font-size: 30px;
   margin: 0%;
   padding: 0%;
@@ -306,7 +312,7 @@ margin-top: 8%;
     color: #fafafa;
     margin: 0;
     list-style: none;
-    font-family: "Oswald";
+    font-family: "RobotoMono";
     font-size: 25px;
     padding: 0;
      
@@ -359,8 +365,9 @@ margin-top: 8%;
   color: #fafafa;
   letter-spacing: 1px;
   font-size: 25px;
-  padding-bottom: 5%;
-  font-family: "Oswald";
+  padding-bottom: 1%;
+  padding-top: 0;
+  font-family: "RobotoMono";
  
   
 }
@@ -382,21 +389,21 @@ margin-top: 8%;
   text-align: center;
   margin-bottom: 1%;
   margin-top: 1%;
-  opacity: 70%;
+  opacity: 90%;
   
   
 }
 
 @media screen and (max-width: 1024px){
+
   
 .contact1{ 
-      text-align: center;
-
+      text-align: center
       }
     }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 860px){
 
 .container{
       text-align: center;
@@ -433,9 +440,27 @@ margin-top: 8%;
  
 }
 
+.navbar{
+padding-top: 0;
+  padding-bottom: 0;
 
+}  
+.sign-in-text {
+  font-size: 25px;
+  padding-right: 5%;
+}
+
+  .sign-in-text h1 {
+    font-size: 30px;
   }
 
+#header-img{
+height: 65vh;
+  padding-bottom: 1px;
+  
+}
+
+}
 
 
 
