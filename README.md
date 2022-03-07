@@ -4,7 +4,7 @@ Milestone Project 1
 User Centric Front-End
 Development
 
-![8000-carylthom-milestoneproje-toqzov0tvcz ws-eu34xl gitpod io_](https://user-images.githubusercontent.com/95102264/156898231-9647a7d3-d6a8-4a04-a37e-f897e5f5c0bd.png)
+
 
 
 ## Description
@@ -30,7 +30,7 @@ Development
 
 ### Colour Scheme
 
-* The main colours used are blue(#00a7fa & #19b0f7) aubergine(#4b293c) white(#fafafa) and a slight use of black(#000000 & #000), dark gray(#333), with a background colour of gray(#b0a6a6) . They have been chosen as the colours of the gym to show modernity and accessibility. 
+* The main colours used are blue(#1f75ff) aubergine(#4b293c) white(#fafafa) and a slight use of black(#000000 & #000), dark gray(#333), with a background colour of gray(#b0a6a6) . They have been chosen as the colours of the gym to show modernity and inclusiveness. 
 
 ### Typography
 
@@ -38,7 +38,7 @@ Development
 
 ### Imagery
 
-* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen again to showing modernity and accessibility. 
+* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen again to showing modernity, accessibility and inclusiveness. 
 
 
 ## Wireframes

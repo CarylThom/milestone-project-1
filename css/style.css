@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Oswald|RobotoMono:200 300 400');
 
 
@@ -56,7 +55,7 @@
 
  .header-text h2 {
    position: relative;
-  color: #00a7fa;  
+  color: #fafafa;  
   font-size: 30px;
   line-height: 0.9;
   text-align: center;
@@ -85,7 +84,7 @@ body {
 .navbar {
  margin: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #4b293c;
   position: fixed; 
   top: 0; 
   width: 100vw; 
@@ -117,7 +116,7 @@ body {
 
 
 .navbar a:hover {
-  color: #00a7fa;
+  color: #1f75ff;
 }
 
 
@@ -252,7 +251,7 @@ body {
   
 }
 .classes h2 {
-  color: #1960f7;
+  color: #1f75ff; 
   font-weight: 700;
 }
 
@@ -263,7 +262,7 @@ body {
 }
 
 .member a {
-  color: #1960f7;
+  color: #1f75ff;
 }
 /*cost within picture box*/
 .cost {
@@ -274,7 +273,7 @@ body {
   
 }
 .cost span {
-  color: #1960f7;
+  color: #1f75ff;
   font-size: 30px;
 }
 
@@ -319,7 +318,7 @@ margin-top: 8%;
 }
 .sign-in-text h1 {
   font-family: "RobotoMono";
-  color: #00a7fa;
+  color: #1f75ff;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -348,7 +347,7 @@ margin-top: 8%;
   }
 
   .social a {
-  color: #00a7fa;
+  color: #1f75ff;
   font-size: 35px;
   letter-spacing: 2px;
   
@@ -461,6 +460,7 @@ height: 65vh;
 }
 
 }
+
 
 
 
