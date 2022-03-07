@@ -4,6 +4,8 @@ Milestone Project 1
 User Centric Front-End
 Development
 
+![8000-carylthom-milestoneproje-toqzov0tvcz ws-eu34xl gitpod io_ (1)](https://user-images.githubusercontent.com/95102264/157050163-bfa0e8af-6d56-4511-9d53-5e8492d7e391.png)
+
 
 
 
@@ -51,7 +53,7 @@ Development
 
 * Responsive on all device sizes – Fully responsive on desktop. Responsive on most tablets and mobiles.
 
-* The interactive elements if the site include links to three social media sites, a form for the potential client to become a member, and a section for existing members to see their fitness progress and promotional rewards on offer.
+* The interactive elements of the site include five internal links and external links to three social media sites, a form for the potential client to discuss becoming member, and a section for existing members to see their fitness progress and promotional rewards on offer.
 
 ## Languages Used
 
@@ -86,7 +88,7 @@ Development
 * Lighthouse test report: Lighthouse test on main page (index.html) reported a score between 85-93 on desktop and 85-92 on mobile.
 Lighthouse test on linked page (members.html) reported a score between 89-100 on desktop and 91-100 on mobile.
 
-* W3C Markup Validator report: Some errors were flaged, but to the best of my ability/knowlege no bugs or problems that would inhibit the running of the site were detected.
+* W3C Markup Validator report: Some errors were flaged, but to the best of my ability/knowlege no bugs or problems that would inhibit the running of the site.
 
 * W3C CSS Validator report: No errors detected
 
@@ -143,8 +145,8 @@ Lighthouse test on linked page (members.html) reported a score between 89-100 on
 * The images used were by the photographers:
                 . Sven Mieke: Heading background image.
                 . Risen Wang: Join section background image.
-                . Zachary Kadolph: Form image.
-                . Unknown: Members background image.
+                . Clark Tibbs: Contact image.
+                . Unknown: Members background image. (pixabay)
 
 
 ## Bugs and Issues

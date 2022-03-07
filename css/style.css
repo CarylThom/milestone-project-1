@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|RobotoMono:200 300 400');
 
 
- 
-
-
-
-
 /*-----------------header--------------*/
 
 
@@ -77,8 +72,6 @@ body {
   
 }
   
-  
-
 /*------------------------navigation Bar--------------*/
 
 .navbar {
@@ -93,9 +86,6 @@ body {
   padding-right: 5%
  
  
- 
-  
-  
 }
 
 
@@ -393,7 +383,7 @@ margin-top: 8%;
   
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1180px){
 
   
 .contact1{ 
@@ -404,60 +394,82 @@ margin-top: 8%;
 
 @media screen and (max-width: 860px){
 
-.container{
+  .navbar a {
+  font-size: 10px ;
+  padding: 1%;
+  margin: 0;
+}  
+
+  .container{
       text-align: center;
-      font-size: 15px;
+      font-size: 13px;
       
    }
-.social a{
+
+  .social a{
        font-size: 15px;
        padding-right: 4rem;
      }
-.classes {
+
+  .classes {
        font-size: 12px;
      }
-.member {
+
+  .member {
     font-size: 20px;
   }
-.classes h2 {
+
+  .classes h2 {
     font-size: 20px;
   }
-.join-text {
+
+  .join-text {
     font-size: 15px;
     padding-top: 5%;
   }
-.cost{
+
+  .cost{
     font-size: 15px;
   }
-.header-text h1{
+
+  .header-text h1{
   font-size: 55px;
+  
 }
 
-.form{
+.form {
   font-size: 10px;
   padding-right: 2%;
  
 }
-
-.navbar{
-padding-top: 0;
-  padding-bottom: 0;
-
-}  
 .sign-in-text {
   font-size: 25px;
   padding-right: 5%;
 }
-
-  .sign-in-text h1 {
+.sign-in-text h1 {
     font-size: 30px;
   }
 
 #header-img{
 height: 65vh;
   padding-bottom: 1px;
-  
+
 }
+.who-we-are {
+  font-size: 14px;
+}
+.who-we-are span {
+  font-size: 20px;
+}
+.what-they-say span {
+  font-size: 20px;
+}
+.what-they-say p span  {
+   font-size: 14px;
+
+}
+  
+
 
 }
 
