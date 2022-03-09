@@ -1,17 +1,16 @@
 
 # Title
-Milestone Project 1
-User Centric Front-End
-Development
+'Our Gym'
 
-![8000-carylthom-milestoneproje-toqzov0tvcz ws-eu34xl gitpod io_ (1)](https://user-images.githubusercontent.com/95102264/157050163-bfa0e8af-6d56-4511-9d53-5e8492d7e391.png)
+
+![image](https://user-images.githubusercontent.com/95102264/157535201-461eb2c1-e22f-4390-b245-4f76bfdb9608.png)
 
 
 
 
 ## Description
 
-* It is a website for a small gym. It is a simple and self-explanatory site where its main purpose is to grab the attention of the individual who is looking to address their fitness and health questions, while also gaining more members/ clients for the gym.
+* It is a website for a small gym (Our Gym). It is a simple and self-explanatory site where its main purpose is to grab the attention of the individual who is looking to address their fitness and health questions, while also gaining more members/ clients for the gym.
 
 ## User Experience (UX)
 
@@ -32,7 +31,7 @@ Development
 
 ### Colour Scheme
 
-* The main colours used are blue(#1f75ff) aubergine(#4b293c) white(#fafafa) and a slight use of black(#000000 & #000), dark gray(#333), with a background colour of gray(#b0a6a6) . They have been chosen as the colours of the gym to show modernity and inclusiveness. 
+* The main colours used are purple(#4b293c), gold(#ffd700) white(#fafafa) and a slight use of gray(#242323). They have been chosen as the colours of the gym to show modernity and inclusiveness. 
 
 ### Typography
 
@@ -76,8 +75,6 @@ Development
 * Responsivedesignchecker.com
 
 * Balsamiq: - Balsamiq was used to create the wireframe.
-
-* PixaBay: - One image was obtained from this site.
 
 * Unsplash.com:  - Three images were obtained from this site.
 
@@ -127,7 +124,7 @@ Lighthouse test on linked page (members.html) reported a score between 89-100 on
 
 * Reviewing and revisit lessons from the HTML and CSS section of the course via [Code Institute] 
 
-* The tutors at Code Institute
+* The tutors and mentor at Code Institute
 
 * W3schools.com
 
@@ -138,15 +135,12 @@ Lighthouse test on linked page (members.html) reported a score between 89-100 on
 
 ### Media
 
-* Three Images were found on [www.unsplash.com]
-
-* One image found on [www.piaxabay.com]
+* All Images were found on [www.unsplash.com]
 
 * The images used were by the photographers:
                 . Sven Mieke: Heading background image.
                 . Risen Wang: Join section background image.
-                . Clark Tibbs: Contact image.
-                . Unknown: Members background image. (pixabay)
+                . Egor Myznik: Members background image.
 
 
 ## Bugs and Issues
