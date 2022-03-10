@@ -44,7 +44,7 @@
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/95102264/156890179-fad7e567-728f-4296-94fe-dc84adf8a09b.png)
+![image](https://user-images.githubusercontent.com/95102264/157700657-18c295e2-a614-4cb9-ad16-43dd3741f34e.png)
 
 * Balsmaiq Wireframe  - Used to design the initial draft idea for the website. The overall layout is the same, although colours, image choices and placing are different.
 
@@ -82,12 +82,17 @@
 
 ## Testing
 
-* Lighthouse test report: Lighthouse test on main page (index.html) reported a score between 85-93 on desktop and 85-92 on mobile.
-Lighthouse test on linked page (members.html) reported a score between 89-100 on desktop and 91-100 on mobile.
+* Lighthouse test on main page (index.html) report on desktop - 
+![image](https://user-images.githubusercontent.com/95102264/157695982-9d60c282-6649-4240-b737-70551ae2aedc.png)
+And mobile - 
+![image](https://user-images.githubusercontent.com/95102264/157697101-da8e9847-d620-44b7-9159-78e711f29557.png)
 
-* W3C Markup Validator report: Some errors were flaged, but to the best of my ability/knowlege no bugs or problems that would inhibit the running of the site.
+* Lighthouse test on linked page (members.html) report on desktop - 
+![image](https://user-images.githubusercontent.com/95102264/157697794-2a6899cf-d36d-483f-a43a-59b3b7a7075a.png)
+And mobile - 
+![image](https://user-images.githubusercontent.com/95102264/157698248-f982ed1b-0f71-4649-a805-db904f99874c.png)
 
-* W3C CSS Validator report: No errors detected
+* All code within the pages was tested with W3C Markup Validator and W3C CSS Validator.
 
 
 ## Testing User Stories from User Experience (UX) Section
@@ -145,7 +150,7 @@ Lighthouse test on linked page (members.html) reported a score between 89-100 on
 
 ## Bugs and Issues
 
-* Unaware of any current major bugss or issues that would hinder the operation of the site.
+* Unaware of any current major bugs or issues that would hinder the operation of the site.
 
 * With hardly any previous experience of coding in practice, and having never used GitHub or Bootstrap (or any of the other software and websites involved), this first milestone did prove a challenge. After many hours of work the biggest issues were still the linking of files within GitHub, and also the responsive design on mobile and tablet. Hopefully the frequent use of GitHub and further experimentation with code will make these issues much easier to resolve in future.
 
