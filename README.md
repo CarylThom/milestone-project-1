@@ -1,6 +1,6 @@
 
 # Title
-'Our Gym'
+## 'Our Gym'
 
 
 ![image](https://user-images.githubusercontent.com/95102264/157535201-461eb2c1-e22f-4390-b245-4f76bfdb9608.png)
@@ -31,7 +31,7 @@
 
 ### Colour Scheme
 
-* The main colours used are purple(#4b293c), gold(#ffd700) white(#fafafa) and a slight use of gray(#242323). They have been chosen as the colours of the gym to show modernity and inclusiveness. 
+* The main colours used are purple(#4b293c), gold(#ffd700) white(#fafafa) and a slight use of gray(#242323). They have been chosen as the colours of the gym to show modernity, elegance and inclusiveness. 
 
 ### Typography
 
@@ -39,7 +39,7 @@
 
 ### Imagery
 
-* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen again to showing modernity, accessibility and inclusiveness. 
+* Imagery has been chosen to catch the eye but not be overpowering. They have been chosen again to showing modernity, elegance, accessibility and inclusiveness. 
 
 
 ## Wireframes
@@ -55,7 +55,6 @@
 * The interactive elements of the site include five internal links and external links to three social media sites, a form for the potential client to discuss becoming member, and a section for existing members to see their fitness progress and promotional rewards on offer.
 
 ## Languages Used
-
 
 * HTML5
 * CSS3
