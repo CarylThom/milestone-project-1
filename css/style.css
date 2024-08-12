@@ -311,11 +311,12 @@ body {
     background: #4b293c;
     padding-top: 0%;
     margin: 0%;
+    
 }
 .footer p {
     color: #fafafa;
     font-family: "Oswald";
-    font-size: 2px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 1%;
     margin-top: 1%;
